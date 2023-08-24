@@ -1,0 +1,17 @@
+/* body{
+    text-align: center;
+} */
+.main{
+    border: 1px solid black;
+    height: 400px;
+    width: 600px;
+    /* text-align: center; */
+}
+.heading{
+    border: 1px solid black;
+    text-align: center;
+}
+h1{
+    font-style: italic;
+    color: rgb(3, 74, 74);
+}
