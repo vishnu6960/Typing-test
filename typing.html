@@ -3,16 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
     <link rel="stylesheet" href="typing.css">
     <title>Document</title>
 </head>
 <body>
+    <img id="typingpic" src="https://tse1.mm.bing.net/th?id=OIP.2o58r9UXWR9A55rRzVAXPwHaEw&pid=Api&P=0&h=180" alt="">
     <div class="main">
         <div class="heading">
             <h1>Check Your Typing Skills</h1>
         </div>
+        <div>
+            <select name="time" id="select">
+                <option value="1 min">1 min easy text</option>
+                <option value="1 min">1 min medium text</option>
+                <option value="1 min">2 min easy text</option>
+                <option value="1 min">2 min medium text</option>
+            </select>
+              <span><img src="https://img.icons8.com/?size=1x&id=21498&format=png" alt=""></span>
+        </div>
        
+        <button id="start1" onclick="Run()">Start</button>
 
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="typing.js"></script>
 </body>
 </html>
