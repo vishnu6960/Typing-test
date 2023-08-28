@@ -8,6 +8,92 @@ var arr = [["But I remember it so clearly because it was the day before his diag
 function Run(){
     window.location.href = "typing1.html"
 }
-function start(){
-    document.getElementById("start").replaceWith("")
+
+var p = document.getElementById("paragraph")
+function getRandom(array){
+    var x = Math.floor(Math.random() * array.length)
+    // console.log(arr[x])
+    // p.innerText = arr[x]
+    return x
 }
+var randomElement = getRandom(arr)
+var para = document.getElementsByClassName("para")
+for(var i = 0;i < arr[randomElement].length;i++){
+    var span = document.createElement("span")
+    span.innerText = arr[randomElement]
+    console.log(span)
+    // para.innerText = span
+}
+console.log(typeof(arr[randomElement]))
+
+var input = document.getElementById("input")
+function start(){
+
+    input.addEventListener('keydown', (event) =>{
+        if(event.key == "Backspace"){
+            event.preventDefault()
+        }
+    })
+    console.log(arr[randomElement])
+    // console.log(p.innerText[0])
+    p.innerHTML[2].style.color = "red"
+    // var len = input.value.length
+    
+    //     function updateTime(){
+    //         var mins = Math.floor(seconds / 60)
+    //         var secs = seconds % 60
+
+    //         document.querySelector(".timer").innerHTML = `${mins.toString().padStart(2,'0')}:${secs.toString().padStart(2,'0')}`
+
+    //         if(seconds == 0){
+    //             clearInterval(interval)
+    //         }
+    //         else{
+    //             seconds--
+    //         }
+    //     }
+    //     updateTime()
+    //     var interval = setInterval(updateTime(), 1000)
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // console.log(input.value.length)
+//     if(document.getElementsByClassName("min").innerHTML === "01"){
+//         var seconds = 60
+//         var interval = setInterval(function updateTime(){
+//         var mins = Math.floor(seconds / 60)
+//         var secs = seconds % 60
+
+//         document.querySelector(".timer").innerHTML = `${mins.toString().padStart(2,'0')}:${secs.toString().padStart(2,'0')}`
+
+//         if(seconds == 0){
+//             clearInterval(interval)
+//         }
+//         else{
+//             seconds--
+//         }
+        
+//     },1000)
+//     }
+    
+
+
+// }
+

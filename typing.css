@@ -84,6 +84,7 @@ button{
     margin-right: 10px;
     margin-left: 10px;
     font-size: 20px;
+    word-spacing: 10px;
 }
 .inp{
     border: 1px solid black;
