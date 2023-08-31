@@ -7,22 +7,23 @@
     <title>Document</title>
 </head>
 <body>
-   <div class="main1">
+   <div id="main1">
     <!-- <div >
         <button id="start" onclick="start()">Start the Test</button>
     </div> -->
-    <div class="timer">
+    <div id="timer">
         <span class="min">01</span>:<span class="sec">00</span>
     </div>
-    <div class="test_div">
-        <div class="para">
-            <!-- <span>vishnu</span>
-            <span>vishnu</span> -->
-            <!-- <p id="paragraph"></p> -->
-        </div>
+    <div id="test_div">
+        <div id="para"></div>
         <div class="inp">
             <input id="input" type="text" placeholder="Type here....." oninput="start()"/>
         </div>
+    </div>
+
+    <div id="control">
+        <button onclick="restart()">Restart</button>
+        <button onclick="exit()">Exit</button>
     </div>
    </div> 
 
