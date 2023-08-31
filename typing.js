@@ -207,7 +207,7 @@ function restart(){
     window.location.reload()
 }
 function exit(){
-    window.location.href = "typing.html"
+    window.location.href = "index.html"
     input.value = ""
 }
         
