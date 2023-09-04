@@ -87,6 +87,7 @@ button{
     flex-wrap: wrap; */
     /* float: left; */
     width: fit-content;
+    /* line-gap-override:   ; */
     height: 80%;
     overflow-y: auto;
     overflow-x: auto;
@@ -95,14 +96,10 @@ button{
     margin-right: 1%;
     scroll-behavior: smooth;
     /* overflow: hidden; */
-    /* text-overflow: ellipsis; */
-    /* text-decoration: underline; */
-    /* text-decoration-line: inherit; */
-    /* font-size: 100px; */
 }
-#para::-webkit-scrollbar{
-    display: none;
-  }
+    /* #para::-webkit-scrollbar{
+        display: none;
+    } */
 .span{
     line-break: anywhere;
     /* margin-right: 10px;
