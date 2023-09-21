@@ -59,7 +59,7 @@ var correct = 0
 
 function start(){
     if(count == 1){
-        var seconds = 239
+        var seconds = 59
         var interval = setInterval(function updateTime(){
         var mins = Math.floor(seconds / 60)
         var secs = seconds % 60
